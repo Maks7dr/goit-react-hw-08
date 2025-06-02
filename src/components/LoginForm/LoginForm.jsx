@@ -13,7 +13,14 @@ export const LoginForm = () => {
         email: form.elements.email.value,
         password: form.elements.password.value,
       }),
-    );
+    )
+      .unwrap()
+      .then(() => {
+        console.log('Login successful');
+      })
+      .catch((err) => {
+        console.error('Login failed:', err);
+      });
 
     form.reset();
   };
