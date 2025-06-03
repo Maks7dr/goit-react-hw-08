@@ -4,6 +4,15 @@
   text-align: left;
   margin: 0;
 }
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 15px;
+  width: 320px;
+}
 .input {
   border-radius: 10px;
   border: 1px solid black;

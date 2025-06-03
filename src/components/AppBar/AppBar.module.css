@@ -4,4 +4,15 @@
   align-items: center;
   margin-bottom: 16px;
   border-bottom: 1px solid #2a363b;
+  width: 415px;
+}
+@media only screen and (min-width: 768px) {
+  .header {
+    width: 768px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .header {
+    width: 1280px;
+  }
 }

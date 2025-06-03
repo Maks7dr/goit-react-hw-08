@@ -16,7 +16,7 @@ const ContactsPage = () => {
 
   return (
     <div>
-      <h1>Your contacts</h1>
+      {/* <h1>Your contacts</h1> */}
       <ContactForm />
       <SearchBox />
       {isLoading && <p>Loading contacts...</p>}
